@@ -151,7 +151,7 @@ def req():
             fileName = str(random.randint(1, 1000000000))
             f.save(ab_path + '/file/' + fileName)
         except:
-            return render_template('info.html', meg="Something Happend...")
+            return render_template('info.html', meg="Something Happened...")
         finally:
             try:
                 han(fileName, t)
@@ -171,7 +171,7 @@ def req_r():
             fileName = str(random.randint(1, 1000000000))
             f.save(ab_path + '/file/' + fileName)
         except:
-            return render_template('info.html', meg="Something Happend...")
+            return render_template('info.html', meg="Something Happened...")
         finally:
             try:
                 return render_template('success.html', meg=readImg(fileName))
