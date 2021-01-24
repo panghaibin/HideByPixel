@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 
+import os
 import random
 
 from PIL import Image
